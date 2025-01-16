@@ -19,11 +19,6 @@ content-type: application/json
 }
 ```
 
-Remember to copy the `/assets` directory so the app can use the appropriate icons.
-
-- `assets/notificationlogo.png` -  Used for the Windows notification.
-- `assets/trayicon.ico` - Used as the tray icon.
-
 ## Windows Startup
 
 Add the app to Windows startup so the server is loaded automatically on start.
