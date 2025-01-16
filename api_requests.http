@@ -1,0 +1,14 @@
+GET http://localhost:8081/notification HTTP/1.1
+
+###
+POST http://localhost:8081/notification HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Notification Title",
+    "body_message": "Your message here..."
+}
+
+###
+GET http://localhost:8081 HTTP/1.1
+

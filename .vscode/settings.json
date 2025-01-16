@@ -1,0 +1,46 @@
+{
+    // Python settings
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoSearchPaths": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none"
+    },
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/src"
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.terminal.activateEnvironment": true,
+    "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+    "files.exclude": {
+        "**/.venv": true,
+        "**/.old": true, 
+        "**/.ignore": true,
+        "**/build": true,
+        "**/dist": true,
+        "poetry.lock": true,
+        "**/*.zip": true,
+        "**/third_party/**": true,
+        "**/kinghost/**": true,
+    },
+    "html.format.wrapLineLength": 180,
+    "html.format.wrapAttributes": "auto",
+    "files.associations": {
+        "*.html": "jinja-html"
+    },
+    "emmet.includeLanguages": {
+        "jinja2": "html",
+        "jinja-html": "html",
+    },
+    "[jinja-html]": {
+        "editor.detectIndentation": true,
+        "editor.tabSize": 4,
+        "editor.formatOnSave": false,
+    },
+    // Test settings
+    // "python.testing.pytestEnabled": false,
+    // "python.testing.unittestEnabled": false,
+    // "python.testing.cwd": "${workspaceFolder}/tests",
+    // "python.testing.pytestPath": "${workspaceFolder}/.venv/bin/pytest",
+    // "python.testing.autoTestDiscoverOnSaveEnabled": true,
+}
